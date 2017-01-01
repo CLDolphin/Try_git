@@ -13,3 +13,28 @@ git commit --amend --reset-author
 
 #Tricky way to add files includding the inside directories
 git add '*.txt'
+
+#Add remote repository
+!You can also remove
+git remote add origin https://github.com/try-git/try_git.git
+
+
+#Push the code:
+!You can also pull
+git push -u origin master
+
+#See differences in this case it is the most recent
+git diff HEAD
+
+#See staged changes
+git diff --staged
+
+
+
+
+
+
+
+
+
+
