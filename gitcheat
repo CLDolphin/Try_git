@@ -30,10 +30,12 @@ git diff HEAD
 git diff --staged
 
 
+#Remove staged files
+git reset octofamily/octodog.txt
 
 
-
-
+#Travels back in time
+git checkout -- filename
 
 
 
